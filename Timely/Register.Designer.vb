@@ -183,33 +183,45 @@ Partial Class Register
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.DarkGray
+        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.DimGray
+        Me.Button1.FlatAppearance.BorderSize = 2
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(769, 467)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(126, 31)
         Me.Button1.TabIndex = 22
         Me.Button1.Text = "Submit"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.DarkGray
+        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.DimGray
+        Me.Button2.FlatAppearance.BorderSize = 2
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(674, 467)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 30)
         Me.Button2.TabIndex = 23
         Me.Button2.Text = "Cancel"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
+        Me.Button3.BackColor = System.Drawing.Color.DarkGray
+        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.DimGray
+        Me.Button3.FlatAppearance.BorderSize = 2
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(886, 656)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(129, 35)
         Me.Button3.TabIndex = 24
         Me.Button3.Text = "Quit"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Label14
         '
@@ -287,6 +299,7 @@ Partial Class Register
         'Register
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.BackColor = System.Drawing.Color.LightGray
         Me.ClientSize = New System.Drawing.Size(1027, 703)
         Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.TextBox8)
